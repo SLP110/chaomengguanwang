@@ -1,0 +1,262 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.box2 .head{
+    width:100%;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap; 
+}
+.box2 .head .left{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    /* background: red; */
+
+}
+.box2 .head .right{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* background: red; */
+    display: flex;
+    flex-flow: row nowrap;
+}
+.box2 .head .right li{
+    height: 100%;
+    line-height: 80px;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.box2 .head .right li img{
+    margin-top: 20px;
+}
+.box2 .head .right div{
+    position: absolute;
+    right: 295px;
+    bottom: -10px;
+    height: 26px;
+    width: 120px;
+    text-align: center;
+    background: #eee;
+    z-index: 6;
+    line-height: 26px;
+}
+.box2 .head .right p{
+ 
+        width: 0;
+        height: 0;
+        border-left: 11px solid transparent;
+        border-right:11px solid transparent;
+        border-bottom: 11px solid #eee;
+        position: absolute;
+        right: 355px;
+        top: 37px;
+   
+}
+
+
+
+
+/* 超盟金服 */
+
+.cmjf{
+    width:100%;
+    height: 150px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.cmjf .left{
+    width:30%;
+    height: auto;
+    /* background: red; */
+
+}
+.cmjf .right{
+    width:50%;
+    height: 100%;
+    margin-top:15px;
+    /* background: rgb(231, 23, 214); */
+}
+
+
+
+
+/* 6个图片 */
+.sixtp{
+    width:100%;
+    height: 450px;
+    background: pink;
+}
+.sixtp .jhsy .quearl{
+    width:60%;
+    height:410px;
+    margin:auto;
+    /* background:green; */
+    border:1px solid wheat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sixtp .jhsy  .quearl div{
+    width: 21%;
+    height: 175px;
+    /* background: blue; */
+    border:1px solid #eee;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+.sixtp .jhsy div img{
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.sixtp .jhsy div p{
+    margin-left: 34%;
+
+}
+.list{
+    margin-top:200px;
+    width:66%;
+    height: auto;
+    /* background: hotpink; */
+    border:1px solid wheat;
+    margin-left: 17%;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    /* justify-content: space-around;
+    align-content: center; */
+}
+.list .left{
+    width: 30%;
+    height: 405px;
+    border:1px solid wheat;
+    /* background: palegreen; */
+    margin-left: 20%;
+}
+.list .left img{
+    margin-left: 17%;
+    position: absolute;
+    top: 19px;
+    left: 6%;
+    
+}
+.list .left div{
+    width:275px;
+    height: 363px;
+    border:5px solid blue;
+    margin-top:31px;
+    /* margin-bottom: 8px 5px; */
+}
+.list .right{
+    width: 30%;
+    height: 405px;
+    border:1px solid wheat;
+    /* background: palegreen; */
+    margin-left: 3%;
+}
+.list .right div{
+    width:100%;
+    height: 15%;
+    /* background:orchid; */
+    border:1px solid wheat;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top:5px;
+    border-radius: 10px;
+
+}
+.list .right div .number{
+    color: palegreen;
+    display: inline-block;
+    width: 25px;
+    height: 57px;
+    line-height: 57px;
+    margin-left: 5px;
+    /* background: red; */
+}
+.list .right div span{
+    display: inline-block;
+    line-height: 24px;
+    margin-left: 8px;
+    /* background: green; */
+}
+
+
+
+
+/* bottom */
+
+.introduce{
+    width:80%;
+    height: 298px;
+    /* background: yellow; */
+    
+  
+
+}
+.introduce .content{
+    display: flex;
+    flex-flow: row nowrap;
+    /* width:100%;
+    height: auto;
+    background: purple; */
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.introduce .content .left{
+    width:40%;
+    height:46px;
+    /* background: red; */
+}
+.introduce .content .right{
+    width:40%;
+    height:300px;
+    /* border: rgb(236, 162, 162) 1px solid; */
+}
+.introduce .right .top{
+    margin-top: 91px;
+    /* background: red; */
+}
+.introduce .right .top ul{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width:73%;
+    height: 50px;
+    /* background: gold; */
+   margin-left:60px;
+   
+
+
+    
+}
+.introduce .right .top ul li{
+    list-style: none;
+    /* border-left: 1px solid black; */
+    /* padding-left: 3px; */
+    padding-right: 3px;
+    
+}
+.introduce .right .top .bottom1{
+    width: 81%;
+    height: auto;
+    background: #ccc;
+    margin-left: 57px;
+   
+}
