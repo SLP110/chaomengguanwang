@@ -2,16 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
-#groupBusiness{
+#faceBook{
     width: 100%;
 }
-/* #groupBusiness .cont{
+/* #faceBook .cont{
     width: 1300px;
     height: 500px;
 }  */
 
 
-#groupBusiness .head{
+#faceBook .head{
     width:100%;
     min-height: 80px;
     position: fixed;
@@ -22,7 +22,7 @@
     /* opacity: .5; */
 }
 
-#groupBusiness .head .headCont,#groupBusiness .head .headShow{
+#faceBook .head .headCont,#faceBook .head .headShow{
     width:1300px;
     height: 100%;
     margin: auto;
@@ -33,12 +33,12 @@
     /* opacity: .5; */
 }
 
-#groupBusiness .head .headCont .left,#groupBusiness .head .headShow .left{
+#faceBook .head .headCont .left,#faceBook .head .headShow .left{
     width: 40%;
     height: 100%;
     /* text-align: center;  */
 }
-#groupBusiness .head .headCont .right,#groupBusiness .head .headShow .right{
+#faceBook .head .headCont .right,#faceBook .head .headShow .right{
     margin: 0;
     padding: 0;
     width: 60%;
@@ -47,11 +47,11 @@
     display: flex;
     flex-flow: row nowrap;
 }
-#groupBusiness .head .headCont .right .active{
+#faceBook .head .headCont .right .active{
     color: #63bfaa;
     border-bottom: 1px solid #63bfaa;
 }
-#groupBusiness .head .headCont .right li{
+#faceBook .head .headCont .right li{
     height: 100%;
     width: 10%;
     line-height: 80px;
@@ -60,11 +60,11 @@
     font-size: 14px;
     text-align: center;
 }
-#groupBusiness .head .headCont .right li img{
+#faceBook .head .headCont .right li img{
     margin-top: 20px;
 }
 
-#groupBusiness .head .headCont .right div{
+#faceBook .head .headCont .right div{
     position: absolute;
     right: 7%;
     bottom: -2%;
@@ -75,7 +75,7 @@
     z-index: 6;
     line-height: 26px;
 }
-#groupBusiness .head .headCont .right p{
+#faceBook .head .headCont .right p{
     width: 0;
     height: 0;
     border-left: 11px solid transparent;
@@ -92,7 +92,7 @@
 
 /* 导航下面部分 */
 
-#groupBusiness .head .headShow .right li{
+#faceBook .head .headShow .right li{
     height: 100%;
     width: 10%;
     line-height: 20px;
@@ -103,50 +103,50 @@
 
 
 /* 主内容区域 */
-#groupBusiness .cont{
+#faceBook .cont{
     width: 1300px;
     margin: auto;
     margin-top: 110px;
 }
-#groupBusiness .cont .contHead{
+#faceBook .cont .contHead{
     width: 100%;
     margin-bottom: 20px;
 }
-#groupBusiness .cont .contHead p{
+#faceBook .cont .contHead p{
     width: 500px;
     font-size: 13px;
     color: #ccc;
 }
 
 /* ********************** */
-#groupBusiness .cont .contCenter{
+#faceBook .cont .contCenter{
     width: 85%;  
     margin: auto;
     text-align: center;  
 }
-#groupBusiness .cont .contCenter .list{
+#faceBook .cont .contCenter .list{
     height: 200px;
     background: red;
     border-radius: 20px;
     margin-bottom: 100px;
     /* width: 200px; */
 }
-#groupBusiness .cont .contCenter .list img{
+#faceBook .cont .contCenter .list img{
     margin-top: 50px;
 }
 
 /* ********************** */
-#groupBusiness .cont .contFoot{
+#faceBook .cont .contFoot{
     width: 85%;  
     margin: auto;
     text-align: center;  
 }
-#groupBusiness .cont .contFoot .contFootLeft{
+#faceBook .cont .contFoot .contFootLeft{
     text-align: right;
     /* height: 100px; */
     /* background: red; */
 }
-#groupBusiness .cont .contFoot .contFootRight div{
+#faceBook .cont .contFoot .contFootRight div{
     width: 250px;
     font-size: 13px;
     text-align: left;
@@ -161,12 +161,12 @@
     /* height: 100px; */
     /* background: red; */
 }
-#groupBusiness .cont .contFoot .contFootRight p{
+#faceBook .cont .contFoot .contFootRight p{
     margin-top: 10px;
   
 }
 
-#groupBusiness .cont .contFoot .contFootRight .number{
+#faceBook .cont .contFoot .contFootRight .number{
     width: 25%;
     text-align: center;
     font-size: 18px;
@@ -175,7 +175,7 @@
 }
 
 /* 底部 */
-#groupBusiness .cont .foot{
+#faceBook .cont .foot{
     width: 100%;
     background: red;
     color: #fff;
@@ -186,35 +186,35 @@
     /* margin: auto; */
 
 }
-#groupBusiness .cont .foot .footLeft{
+#faceBook .cont .foot .footLeft{
     width: 40%;
     height: 100%;
     
 }
-#groupBusiness .cont .foot .footLeft .footLeftCont{
+#faceBook .cont .foot .footLeft .footLeftCont{
     width: 50%;
     height: 100%;
     margin: auto;
     /* background: yellow; */
 }
-#groupBusiness .cont .foot .footLeft .footLeftCont p{
+#faceBook .cont .foot .footLeft .footLeftCont p{
     font-size: 13px;
     margin-top: 15px;
 }
 
 
-#groupBusiness .cont .foot .footRigth{
+#faceBook .cont .foot .footRigth{
     width: 50%;
     height: 100%;
     /* background: red; */
 }
 
-#groupBusiness .cont .foot .footRigth .top{
+#faceBook .cont .foot .footRigth .top{
     width: 100%;
     height: 35px;
     border-bottom: 1px solid #fff;
 }
-#groupBusiness .cont .foot .footRigth .top span{
+#faceBook .cont .foot .footRigth .top span{
     display: inline-block;
     width: 8%;
     border-left: 1px solid #fff;
@@ -222,11 +222,11 @@
     margin-top: 10px;
     font-size: 13px;
 }
-#groupBusiness .cont .foot .footRigth .bottom{
+#faceBook .cont .foot .footRigth .bottom{
     margin-top: 10px;
     text-align: right;
 }
-#groupBusiness .cont .foot .footRigth .bottom p{
+#faceBook .cont .foot .footRigth .bottom p{
     font-size: 13px;
     margin-bottom: 10px;
 }
@@ -234,7 +234,7 @@
 /* 超盟硬件 */
 
 
-#groupBusiness .cont .poscenter{
+#faceBook .cont .poscenter{
     /* background: red; */
     width:92%;
     height: 400px;
@@ -247,20 +247,68 @@
     justify-content: space-around;
     align-items: center;
 }
-#groupBusiness .cont .poscenter ul{
+#faceBook .cont .poscenter ul{
     list-style: none;
     margin-left: 4%;
     margin-top: -79px;
 
 }
-#groupBusiness .cont .poscenter .borderbottom{
+#faceBook .cont .poscenter .borderbottom{
     width:50px;
     height: 30px;
     /* background: yellow; */
     border-top:5px solid blue;
 }
-#groupBusiness .cont .poscenter ul li{
+#faceBook .cont .poscenter ul li{
     padding-top: 5px;
     font-size: 12px;
     color: #ccc;
+}
+
+#faceBook .cont .cont-1{
+    width:100%;
+    height: 670px;
+    background: #ddf1ed;
+    border-radius: 18px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#faceBook .cont .cont-1 .left img{
+    width:35%;
+    height: auto;
+    margin-left: 5%;
+    
+}
+#faceBook .cont .cont-1 .left{
+    width:50%;
+    height: 100%;
+    /* background: red; */
+}
+#faceBook .cont .cont-1 .left img{
+    width:70%;
+}
+#faceBook .cont .cont-1 .right{
+    width:50%;
+    height: 100%;
+    /* background: green; */
+}
+#faceBook .cont .cont-1 .right .seeOthers .btn{
+    width: 47%;
+    height: 60px;
+    border:1px solid red;
+    /* background: rgb(199, 219, 19); */
+    border-radius: 16px;
+    margin: 15px 26%;
+    text-align: center;
+    line-height: 60px;
+    color:red;
+}
+#faceBook .cont .cont-1 .right .seeOthers{
+    width:60%;
+    height: 500px;
+    /* background: blue; */
+    border:1px solid wheat;
 }

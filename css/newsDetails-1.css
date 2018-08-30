@@ -2,16 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
-#groupBusiness{
+#newsDetails-1{
     width: 100%;
 }
-/* #groupBusiness .cont{
+/* #newsDetails-1 .cont{
     width: 1300px;
     height: 500px;
 }  */
 
 
-#groupBusiness .head{
+#newsDetails-1 .head{
     width:100%;
     min-height: 80px;
     position: fixed;
@@ -22,7 +22,7 @@
     /* opacity: .5; */
 }
 
-#groupBusiness .head .headCont,#groupBusiness .head .headShow{
+#newsDetails-1 .head .headCont,#newsDetails-1 .head .headShow{
     width:1300px;
     height: 100%;
     margin: auto;
@@ -33,12 +33,12 @@
     /* opacity: .5; */
 }
 
-#groupBusiness .head .headCont .left,#groupBusiness .head .headShow .left{
+#newsDetails-1 .head .headCont .left,#newsDetails-1 .head .headShow .left{
     width: 40%;
     height: 100%;
     /* text-align: center;  */
 }
-#groupBusiness .head .headCont .right,#groupBusiness .head .headShow .right{
+#newsDetails-1 .head .headCont .right,#newsDetails-1 .head .headShow .right{
     margin: 0;
     padding: 0;
     width: 60%;
@@ -47,11 +47,11 @@
     display: flex;
     flex-flow: row nowrap;
 }
-#groupBusiness .head .headCont .right .active{
+#newsDetails-1 .head .headCont .right .active{
     color: #63bfaa;
     border-bottom: 1px solid #63bfaa;
 }
-#groupBusiness .head .headCont .right li{
+#newsDetails-1 .head .headCont .right li{
     height: 100%;
     width: 10%;
     line-height: 80px;
@@ -60,11 +60,11 @@
     font-size: 14px;
     text-align: center;
 }
-#groupBusiness .head .headCont .right li img{
+#newsDetails-1 .head .headCont .right li img{
     margin-top: 20px;
 }
 
-#groupBusiness .head .headCont .right div{
+#newsDetails-1 .head .headCont .right div{
     position: absolute;
     right: 7%;
     bottom: -2%;
@@ -75,7 +75,7 @@
     z-index: 6;
     line-height: 26px;
 }
-#groupBusiness .head .headCont .right p{
+#newsDetails-1 .head .headCont .right p{
     width: 0;
     height: 0;
     border-left: 11px solid transparent;
@@ -92,7 +92,7 @@
 
 /* 导航下面部分 */
 
-#groupBusiness .head .headShow .right li{
+#newsDetails-1 .head .headShow .right li{
     height: 100%;
     width: 10%;
     line-height: 20px;
@@ -103,118 +103,97 @@
 
 
 /* 主内容区域 */
-#groupBusiness .cont{
+#newsDetails-1 .cont{
     width: 1300px;
     margin: auto;
     margin-top: 110px;
+ 
 }
-#groupBusiness .cont .contHead{
+#newsDetails-1 .cont .contHead{
     width: 100%;
     margin-bottom: 20px;
 }
-#groupBusiness .cont .contHead p{
-    width: 500px;
-    font-size: 13px;
-    color: #ccc;
-}
-
-/* ********************** */
-#groupBusiness .cont .contCenter{
-    width: 85%;  
+#newsDetails-1 .cont .contHead .title{
+    width: 300px;
+    color: red;
+    border: 1px solid #5db7ad;
     margin: auto;
-    text-align: center;  
-}
-#groupBusiness .cont .contCenter .list{
-    height: 200px;
-    background: red;
-    border-radius: 20px;
-    margin-bottom: 100px;
-    /* width: 200px; */
-}
-#groupBusiness .cont .contCenter .list img{
-    margin-top: 50px;
-}
-
-/* ********************** */
-#groupBusiness .cont .contFoot{
-    width: 85%;  
-    margin: auto;
-    text-align: center;  
-}
-#groupBusiness .cont .contFoot .contFootLeft{
-    text-align: right;
-    /* height: 100px; */
-    /* background: red; */
-}
-#groupBusiness .cont .contFoot .contFootRight div{
-    width: 250px;
-    font-size: 13px;
-    text-align: left;
-    height: 55px;
-    background: #fff;
-    border-radius: 10px;
-    /* line-height: 55px; */
-    margin-bottom: 10px;
-    display: flex;
-    flex-flow: row nowrap;
-    padding: 0 10px;
-    /* height: 100px; */
-    /* background: red; */
-}
-#groupBusiness .cont .contFoot .contFootRight p{
-    margin-top: 10px;
-  
-}
-
-#groupBusiness .cont .contFoot .contFootRight .number{
-    width: 25%;
+    height: 80px;
+    line-height: 40px;
     text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-    color: #63c0ab;
+    border-radius: 20px;
 }
+#newsDetails-1 .cont .contBox h3{
+    width: 28%;
+    margin: auto;
+
+}
+#newsDetails-1 .cont .contBox p{
+    margin: auto;
+    padding: 20px 0px;
+    width: 28%;
+    font-size: 10px;
+    text-align: right;
+}
+#newsDetails-1 .cont .contBox .contText{
+    /* height: 200px; */
+    padding: 0px 100px;
+    margin-bottom: 50px;
+    /* background: rebeccapurple */
+}
+#newsDetails-1 .cont .contBox .contText img{
+    width: 100%;
+    height: 200px;
+}
+#newsDetails-1 .cont .contBox .contText div{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+
 
 /* 底部 */
-#groupBusiness .cont .foot{
-    width: 100%;
-    background: red;
-    color: #fff;
+#newsDetails-1 .cont .foot{
     background: #63bfaa;
+    color: #fff;
+    width: 100%;
+    /* background: red; */
     height: 100px;
     display: flex;
     flex-flow: row nowrap;
     /* margin: auto; */
 
 }
-#groupBusiness .cont .foot .footLeft{
+#newsDetails-1 .cont .foot .footLeft{
     width: 40%;
     height: 100%;
     
 }
-#groupBusiness .cont .foot .footLeft .footLeftCont{
+#newsDetails-1 .cont .foot .footLeft .footLeftCont{
     width: 50%;
     height: 100%;
     margin: auto;
     /* background: yellow; */
 }
-#groupBusiness .cont .foot .footLeft .footLeftCont p{
+#newsDetails-1 .cont .foot .footLeft .footLeftCont p{
     font-size: 13px;
     margin-top: 15px;
 }
 
 
-#groupBusiness .cont .foot .footRigth{
+#newsDetails-1 .cont .foot .footRigth{
     width: 50%;
     height: 100%;
     /* background: red; */
 }
 
-#groupBusiness .cont .foot .footRigth .top{
+#newsDetails-1 .cont .foot .footRigth .top{
     width: 100%;
     height: 35px;
     border-bottom: 1px solid #fff;
 }
-#groupBusiness .cont .foot .footRigth .top span{
+#newsDetails-1 .cont .foot .footRigth .top span{
     display: inline-block;
     width: 8%;
     border-left: 1px solid #fff;
@@ -222,11 +201,11 @@
     margin-top: 10px;
     font-size: 13px;
 }
-#groupBusiness .cont .foot .footRigth .bottom{
+#newsDetails-1 .cont .foot .footRigth .bottom{
     margin-top: 10px;
     text-align: right;
 }
-#groupBusiness .cont .foot .footRigth .bottom p{
+#newsDetails-1 .cont .foot .footRigth .bottom p{
     font-size: 13px;
     margin-bottom: 10px;
 }
@@ -234,7 +213,7 @@
 /* 超盟硬件 */
 
 
-#groupBusiness .cont .poscenter{
+#newsDetails-1 .cont .poscenter{
     /* background: red; */
     width:92%;
     height: 400px;
@@ -247,20 +226,34 @@
     justify-content: space-around;
     align-items: center;
 }
-#groupBusiness .cont .poscenter ul{
+#newsDetails-1 .cont .poscenter ul{
     list-style: none;
     margin-left: 4%;
     margin-top: -79px;
 
 }
-#groupBusiness .cont .poscenter .borderbottom{
+#newsDetails-1 .cont .poscenter .borderbottom{
     width:50px;
     height: 30px;
     /* background: yellow; */
     border-top:5px solid blue;
 }
-#groupBusiness .cont .poscenter ul li{
+#newsDetails-1 .cont .poscenter ul li{
     padding-top: 5px;
     font-size: 12px;
     color: #ccc;
+}
+
+
+
+
+
+/* cont head */
+
+
+#newsDetails-1 .cont .head{
+    width: 1300px;
+    margin: auto;
+    height: 100px;
+    background: gray;
 }
